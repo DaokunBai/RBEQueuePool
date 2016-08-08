@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18120C9C9A5DA0AB53B153ADF36D0C32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2BB185F6AA98DBF75D84E92FD2401EB2 /* Pods-RBEQueuePoolDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736B4E93F7C26E7495DFE716AF25E8D /* Pods-RBEQueuePoolDemo-dummy.m */; };
+		6085DF0F0D3EBBF69357939655E1FD83 /* RBEQueuePool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 287A7A3069A609681D26EEE2295B2B40 /* RBEQueuePool-dummy.m */; };
+		87F5F3E6DD4E8AAC337D1DD692D32982 /* RBEQueuePool.h in Headers */ = {isa = PBXBuildFile; fileRef = DBA289C2F88CB2B7B6615EC4BDDE1312 /* RBEQueuePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99DD4252E7A6397A71C7557106CF926E /* RBEQueuePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9E0CBC1B125CC5259A7C1148332DED /* RBEQueuePool.m */; };
+		E0B216BD8AD98D5392264FA0759FE6A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6FAA455DBCF4CA66B0C7924BD6F9C40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F49D20417C18104B6143CDDFD9BBB5C;
+			remoteInfo = RBEQueuePool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B9E0CBC1B125CC5259A7C1148332DED /* RBEQueuePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBEQueuePool.m; path = RBEQueuePool/RBEQueuePool.m; sourceTree = "<group>"; };
+		1031C5B9DF3F54AE4043E2C204CAC971 /* Pods-RBEQueuePoolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RBEQueuePoolDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		287A7A3069A609681D26EEE2295B2B40 /* RBEQueuePool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RBEQueuePool-dummy.m"; sourceTree = "<group>"; };
+		406E0908E51781798422F162B70DE3E0 /* Pods-RBEQueuePoolDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RBEQueuePoolDemo-resources.sh"; sourceTree = "<group>"; };
+		600E67B4D698584FA3B6C8C91C5F752E /* RBEQueuePool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RBEQueuePool-prefix.pch"; sourceTree = "<group>"; };
+		6F64E354102755F25CFF2B73EBE92C87 /* libRBEQueuePool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRBEQueuePool.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CA310DDFD158A2D728DEDA7A4C3F56 /* Pods-RBEQueuePoolDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RBEQueuePoolDemo-frameworks.sh"; sourceTree = "<group>"; };
+		7736B4E93F7C26E7495DFE716AF25E8D /* Pods-RBEQueuePoolDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RBEQueuePoolDemo-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1B25E67714E895DBAE649A67F24A50B /* Pods-RBEQueuePoolDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RBEQueuePoolDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		C04D176D297027C3CA267EEBBB666CAB /* Pods-RBEQueuePoolDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RBEQueuePoolDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF408ECD26D5925A7715767A364AC7E8 /* RBEQueuePool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RBEQueuePool.xcconfig; sourceTree = "<group>"; };
+		DBA289C2F88CB2B7B6615EC4BDDE1312 /* RBEQueuePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBEQueuePool.h; path = RBEQueuePool/RBEQueuePool.h; sourceTree = "<group>"; };
+		E143801645ED1910138B8FC57568BF08 /* Pods-RBEQueuePoolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RBEQueuePoolDemo.release.xcconfig"; sourceTree = "<group>"; };
+		ED4951C3F3D1A4496D782A47D218CE6C /* libPods-RBEQueuePoolDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RBEQueuePoolDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39C8FB3F28A8455294438AFA99D6965A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18120C9C9A5DA0AB53B153ADF36D0C32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3856AF751EF4BE733DE1F0D00D84658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B216BD8AD98D5392264FA0759FE6A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095FDCEA56CB70BB89445AA2613C73EB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA7848DE3AF8C6952716A5C5F465E732 /* Pods-RBEQueuePoolDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		29879235E26632DC42138CE617D5A2F2 /* RBEQueuePool */ = {
+			isa = PBXGroup;
+			children = (
+				DBA289C2F88CB2B7B6615EC4BDDE1312 /* RBEQueuePool.h */,
+				0B9E0CBC1B125CC5259A7C1148332DED /* RBEQueuePool.m */,
+				ECD65F712DF91214C10CDBF162EC7FF3 /* Support Files */,
+			);
+			path = RBEQueuePool;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C487A112FC1A4DE34FBDC77EC3B5F8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED4951C3F3D1A4496D782A47D218CE6C /* libPods-RBEQueuePoolDemo.a */,
+				6F64E354102755F25CFF2B73EBE92C87 /* libRBEQueuePool.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C3703C375BB8B8203BBBE110CC6EFD21 /* Pods */,
+				7C487A112FC1A4DE34FBDC77EC3B5F8B /* Products */,
+				095FDCEA56CB70BB89445AA2613C73EB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3703C375BB8B8203BBBE110CC6EFD21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29879235E26632DC42138CE617D5A2F2 /* RBEQueuePool */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA7848DE3AF8C6952716A5C5F465E732 /* Pods-RBEQueuePoolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C04D176D297027C3CA267EEBBB666CAB /* Pods-RBEQueuePoolDemo-acknowledgements.markdown */,
+				A1B25E67714E895DBAE649A67F24A50B /* Pods-RBEQueuePoolDemo-acknowledgements.plist */,
+				7736B4E93F7C26E7495DFE716AF25E8D /* Pods-RBEQueuePoolDemo-dummy.m */,
+				76CA310DDFD158A2D728DEDA7A4C3F56 /* Pods-RBEQueuePoolDemo-frameworks.sh */,
+				406E0908E51781798422F162B70DE3E0 /* Pods-RBEQueuePoolDemo-resources.sh */,
+				1031C5B9DF3F54AE4043E2C204CAC971 /* Pods-RBEQueuePoolDemo.debug.xcconfig */,
+				E143801645ED1910138B8FC57568BF08 /* Pods-RBEQueuePoolDemo.release.xcconfig */,
+			);
+			name = "Pods-RBEQueuePoolDemo";
+			path = "Target Support Files/Pods-RBEQueuePoolDemo";
+			sourceTree = "<group>";
+		};
+		ECD65F712DF91214C10CDBF162EC7FF3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF408ECD26D5925A7715767A364AC7E8 /* RBEQueuePool.xcconfig */,
+				287A7A3069A609681D26EEE2295B2B40 /* RBEQueuePool-dummy.m */,
+				600E67B4D698584FA3B6C8C91C5F752E /* RBEQueuePool-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RBEQueuePool";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C5E8EA41EBA885685B3E49459A329EED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F5F3E6DD4E8AAC337D1DD692D32982 /* RBEQueuePool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4F49D20417C18104B6143CDDFD9BBB5C /* RBEQueuePool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19BFE20B21889409C272C3DC3BE7B5F3 /* Build configuration list for PBXNativeTarget "RBEQueuePool" */;
+			buildPhases = (
+				2C008D200BAB24551D92AA4B6727B8AD /* Sources */,
+				39C8FB3F28A8455294438AFA99D6965A /* Frameworks */,
+				C5E8EA41EBA885685B3E49459A329EED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RBEQueuePool;
+			productName = RBEQueuePool;
+			productReference = 6F64E354102755F25CFF2B73EBE92C87 /* libRBEQueuePool.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7CD0563A44CE3BBB43DF07A01471EF0B /* Pods-RBEQueuePoolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3030BA2295C0D01472749EF80418809F /* Build configuration list for PBXNativeTarget "Pods-RBEQueuePoolDemo" */;
+			buildPhases = (
+				210F1F5A012D3E5448597DC4F638C03F /* Sources */,
+				C3856AF751EF4BE733DE1F0D00D84658 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A8E141B6CEA9AC77C1BD844ED71121E /* PBXTargetDependency */,
+			);
+			name = "Pods-RBEQueuePoolDemo";
+			productName = "Pods-RBEQueuePoolDemo";
+			productReference = ED4951C3F3D1A4496D782A47D218CE6C /* libPods-RBEQueuePoolDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7C487A112FC1A4DE34FBDC77EC3B5F8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CD0563A44CE3BBB43DF07A01471EF0B /* Pods-RBEQueuePoolDemo */,
+				4F49D20417C18104B6143CDDFD9BBB5C /* RBEQueuePool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		210F1F5A012D3E5448597DC4F638C03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB185F6AA98DBF75D84E92FD2401EB2 /* Pods-RBEQueuePoolDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C008D200BAB24551D92AA4B6727B8AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6085DF0F0D3EBBF69357939655E1FD83 /* RBEQueuePool-dummy.m in Sources */,
+				99DD4252E7A6397A71C7557106CF926E /* RBEQueuePool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A8E141B6CEA9AC77C1BD844ED71121E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RBEQueuePool;
+			target = 4F49D20417C18104B6143CDDFD9BBB5C /* RBEQueuePool */;
+			targetProxy = D6FAA455DBCF4CA66B0C7924BD6F9C40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3049302CD5D64155E44932F56A1AC5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF408ECD26D5925A7715767A364AC7E8 /* RBEQueuePool.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RBEQueuePool/RBEQueuePool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65EB6007151F4FD80B360E12E89C4ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1031C5B9DF3F54AE4043E2C204CAC971 /* Pods-RBEQueuePoolDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7D15B3A84AFB9DC2361F9AEBB837EA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF408ECD26D5925A7715767A364AC7E8 /* RBEQueuePool.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RBEQueuePool/RBEQueuePool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E7D45A535028CF75CA2588503553FD7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E143801645ED1910138B8FC57568BF08 /* Pods-RBEQueuePoolDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19BFE20B21889409C272C3DC3BE7B5F3 /* Build configuration list for PBXNativeTarget "RBEQueuePool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3049302CD5D64155E44932F56A1AC5C6 /* Debug */,
+				7D15B3A84AFB9DC2361F9AEBB837EA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3030BA2295C0D01472749EF80418809F /* Build configuration list for PBXNativeTarget "Pods-RBEQueuePoolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65EB6007151F4FD80B360E12E89C4ACF /* Debug */,
+				E7D45A535028CF75CA2588503553FD7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
